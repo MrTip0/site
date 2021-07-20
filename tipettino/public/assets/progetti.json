@@ -1,0 +1,36 @@
+[
+  {
+    "imgUrl": "/film-dotnet.png",
+    "title": "Film dotnet",
+    "github": "https://github.com/MrTip0/FilmCSharp",
+    "download": [
+      {
+        "platform": "Windows",
+        "link": "https://github.com/MrTip0/FilmCSharp/releases/download/1.0/film.exe"
+      },
+      {
+        "platform": "macOS",
+        "link": "https://github.com/MrTip0/FilmCSharp/releases/download/1.0/film-macos"
+      },
+      {
+        "platform": "Linux",
+        "link": "https://github.com/MrTip0/FilmCSharp/releases/download/1.0/film-linux"
+      }
+    ]
+  },
+  {
+    "imgUrl": "/film.png",
+    "title": "Film c++",
+    "github": "https://github.com/MrTip0/Film",
+    "download": [
+      {
+        "platform": "Windows",
+        "link": "https://github.com/MrTip0/Film/releases/download/1.0/film_x86.exe"
+      },
+      {
+        "platform": "macOS",
+        "link": "https://github.com/MrTip0/Film/releases/download/1.0/film.dmg"
+      }
+    ]
+  }
+]
