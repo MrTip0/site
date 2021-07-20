@@ -1,4 +1,5 @@
 import GhLogo from '../../assets/images/gh-logo.png'
+
 export default function Footer() {
     return(
         <div className="bg-primary-200 flex flex-col items-center">
