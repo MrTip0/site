@@ -4,7 +4,7 @@ import NotExist from './pages/error'
 
 const App = () => {
     return (
-        <Router basename="/preview/">
+        <Router basename="/">
             <Switch>
                 <Route exact path="/" component={Index} />
                 <Route exact path="/home" component={Index} />
