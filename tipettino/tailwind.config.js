@@ -10,7 +10,8 @@ module.exports = {
     colors: {
       primary: colors.teal,
       secondary: colors.yellow,
-      gray: colors.gray
+      gray: colors.gray,
+      error: colors.red
     },
     fontFamily: {
       display: ['Poppins', 'system-ui', 'sans-serif'],

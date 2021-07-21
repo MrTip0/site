@@ -4,7 +4,7 @@ import Description from './Description'
 import Contact from './Contact'
 import Footer from './Footer'
 
-export default function App() {
+export default function Index() {
     return (
         <div>
             <Header />
