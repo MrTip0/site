@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://tipettino.altervista.org</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tipettino.altervista.org/home</loc>
+        <priority>0.1</priority>
+    </url>
+    <url>
+        <loc>https://tipettino.altervista.org/index</loc>
+        <priority>0.1</priority>
+    </url>
+</urlset> 

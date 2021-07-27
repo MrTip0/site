@@ -1,5 +1,27 @@
 [
   {
+    "imgUrl": "/film-ui.png",
+    "title": "Film SwiftUI",
+    "github": "https://github.com/MrTip0/FilmUI",
+    "download": [
+      {
+        "platform": "macOS",
+        "link": "https://github.com/MrTip0/FilmUI/releases/download/1.4/film.dmg"
+      }
+    ]
+  },
+  {
+    "imgUrl": "/calculator.png",
+    "title": "Calculator xamarin.Mac",
+    "github": "https://github.com/MrTip0/Calcolatrice",
+    "download": [
+      {
+        "platform": "macOS",
+        "link": "https://github.com/MrTip0/Calcolatrice/releases/download/1.0/Calcolatrice.dmg"
+      }
+    ]
+  },
+  {
     "imgUrl": "/film-dotnet.png",
     "title": "Film dotnet",
     "github": "https://github.com/MrTip0/FilmCSharp",
