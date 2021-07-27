@@ -1,0 +1,9 @@
+{
+	"tabWidth": 4,
+	"useTabs": true,
+	"bracketSpacing": true,
+	"singleQuote": true,
+	"jsxBracketSameLine": true,
+	"jsxSingleQuote": false,
+	"plugins": ["./node_modules/@prettier/plugin-php"]
+}
