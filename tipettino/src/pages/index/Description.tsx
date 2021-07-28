@@ -11,14 +11,14 @@ export default function Description() {
 			<div className="grid grid-flow-row grid-cols-1 grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 md:grid-cols-2 md:grid-rows-1 h-auto">
 				<div className="flex flex-col items-center w-full">
 					<div className="bg-secondary-100 mb-8 mt-4 rounded-xl shadow-xl w-10/12 transition-transform duration-200 transform hover:-rotate-6">
-						<p className="m-3 text-lg font-semibold break-normal sm:break-all md:break-all">
+						<p className="m-3 text-lg font-semibold break-normal text-center">
 							{desc1}
 						</p>
 					</div>
 				</div>
 				<div className="flex flex-col items-center w-full">
 					<div className="bg-secondary-100 mb-8 mt-4 rounded-xl shadow-xl w-10/12 transition-transform duration-200 transform hover:rotate-6">
-						<p className="m-3 text-lg font-semibold break-normal sm:break-all md:break-all">
+						<p className="m-3 text-lg font-semibold break-normal text-center">
 							{desc2}
 						</p>
 					</div>

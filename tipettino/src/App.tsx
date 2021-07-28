@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Index from './pages/index/Index';
-import NotExist from './pages/error';
+import Error404 from './pages/error';
+import Classmates from './pages/class/class'
 
 const App = () => {
 	return (
@@ -10,7 +11,8 @@ const App = () => {
 				<Route exact path="/home" component={Index} />
 				<Route exact path="/index" component={Index} />
 				<Route exact path="/index.html" component={Index} />
-				<Route path="/" component={NotExist} />
+				<Route exact path="/fotoregistro" component={Classmates} />
+				<Route path="/" component={Error404} />
 			</Switch>
 		</Router>
 	);

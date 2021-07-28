@@ -21,6 +21,9 @@ module.exports = {
 				'3/4': '75%',
 				full: '100%',
 			},
+			height: {
+				'85': '22rem'
+			},
 			keyframes: {
 				rspin: {
 					'0%': {

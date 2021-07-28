@@ -3,15 +3,21 @@ import Portfolio from './Portfolio';
 import Description from './Description';
 import Contact from './Contact';
 import Footer from './Footer';
+import React from 'react';
 
-export default function Index() {
-	return (
-		<div>
-			<Header />
-			<Portfolio />
-			<Description />
-			<Contact />
-			<Footer />
-		</div>
-	);
+export default class Index extends React.Component {
+	componentDidMount = () => {
+		document.title = 'Tipettino';
+	};
+	render = () => {
+		return (
+			<div>
+				<Header />
+				<Portfolio />
+				<Description />
+				<Contact />
+				<Footer />
+			</div>
+		);
+	};
 }
