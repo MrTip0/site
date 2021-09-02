@@ -4,6 +4,9 @@ import { ArrowDownIcon } from '@heroicons/react/solid';
 import GhLogo from '../../assets/images/gh-logo.png';
 import { Menu } from '@headlessui/react';
 import Logo from '../../assets/images/system-logo';
+import HeaderPortfolioDivider from '../../assets/images/HeaderPortfolioDivider.svg'
+import PortfolioDescriptionDivider from '../../assets/images/PortfolioDescriptionDivider.svg'
+
 
 class Download {
 	platform = '';
@@ -39,28 +42,32 @@ export default class Portfolio extends React.Component {
 		if (this.state.loaded) {
 			return (
 				<div className="h-auto bg-secondary-200 w-min-full flex flex-col">
+					<img src={HeaderPortfolioDivider} alt="Header Divider" />
 					<this.Title />
 					<div className="flex flex-row justify-around mt-5 mb-9 self-center flex-wrap">
 						{this.state.projects.map((value) => {
 							return this.ProjectDetail(value);
 						})}
 					</div>
+					<img src={PortfolioDescriptionDivider} alt="Divider" className="transform rotate-180"/>
 				</div>
 			);
 		} else {
 			return (
 				<div className="h-auto bg-secondary-200 w-min-full flex flex-col">
+					<img src={HeaderPortfolioDivider} alt="Header Divider" />
 					<this.Title />
 					<RefreshIcon className="w-10 animate-rspin-slow text-primary-400 self-center mb-3" />
+					<img src={PortfolioDescriptionDivider} alt="Divider" />
 				</div>
 			);
 		}
 	}
 	Title() {
 		return (
-			<h1 className="text-4xl text-center uppercase text-primary-500 mt-6">
-				Portofolio
-			</h1>
+			<div className="text-4xl text-center uppercase text-primary-500 mt-6">
+				<h1>Portfolio</h1>
+			</div>
 		);
 	}
 
@@ -71,10 +78,10 @@ export default class Portfolio extends React.Component {
 
 class MoreInfo extends React.Component {
 	props = {
-		proj: new Project(),
+		proj: new Project()
 	};
 	state = {
-		hidden: true,
+		hidden: true
 	};
 	toggle() {
 		this.setState({ hidden: !this.state.hidden });
@@ -90,7 +97,7 @@ class MoreInfo extends React.Component {
 						this.props.proj.imgUrl
 					}
 					alt={this.props.proj.title + ' image'}
-					className="w-96 rounded-lg shadow-md m-3 border-0 border-primary-300 hover:border-4 transition-transform duration-150 transform group-hover:scale-105"
+					className="w-96 rounded-xl shadow-md m-3 border-0 border-primary-300 hover:border-4 transition-transform duration-150 transform group-hover:scale-105"
 				/>
 				<div
 					hidden={this.state.hidden}

@@ -1,3 +1,5 @@
+import DescriptionContactDivider from '../../assets/images/DescriptionContactDivider.svg'
+
 export default function Description() {
 	const desc1: String =
 		"Hi, I'm an italian computer science student. I have a simple knowledge of some Programming Languages such as Javascript, Python, Swift and C#.";
@@ -24,6 +26,7 @@ export default function Description() {
 					</div>
 				</div>
 			</div>
+			<img src={DescriptionContactDivider} alt="Divider" className="transform rotate-180"/>
 		</div>
 	);
 }

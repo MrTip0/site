@@ -1,8 +1,10 @@
 import GhLogo from '../../assets/images/gh-logo.png';
+import ContactFooterDivider from '../../assets/images/ContactFooterDivider.svg'
 
 export default function Footer() {
 	return (
 		<div className="bg-primary-200 flex flex-col items-center">
+			<img src={ContactFooterDivider} alt="Divider"/>
 			<div className="flex flex-col">
 				<h2 className="uppercase text-primary-500 text-xl mb-3 mt-5">
 					{'Follow me on'}
