@@ -2,9 +2,9 @@ import DescriptionContactDivider from '../../assets/images/DescriptionContactDiv
 
 export default function Description() {
 	const desc1: String =
-		"Hi, I'm an italian computer science student. I have a simple knowledge of some Programming Languages such as Javascript, Python, Swift and C#.";
+		"Hi, I'm an italian computer science student. I have a simple knowledge of some Programming Languages such as Javascript, Python, Rust, Golang. I also know how to use a lot of frameworks of some kind,";
 	const desc2: String =
-		"I'm currently attending the fourth year of high school. The most important thing, I ❤️ Coding, but I also ❤️ my girlfriend.";
+		"such as React, Vue.js, Express, fiber, for web frame work, or Flutter for Mobile Dev. I'm currently attending the fourth year of high school.";
 	return (
 		<div className="bg-primary-200 flex flex-col content-center h-auto">
 			<h1 className="text-center text-4xl uppercase text-primary-500 mt-5">
