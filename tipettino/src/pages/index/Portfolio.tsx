@@ -162,7 +162,7 @@ class MoreInfo extends React.Component {
 									<button
 										className="text-secondary-500 m-2 w-44 flex flex-row items-center"
 										onClick={() =>
-											MoreInfo.download(value.link)
+											MoreInfo.download(value.link, value.platform === "web")
 										}>
 										<img
 											src={Logo(value.platform)}
@@ -178,15 +178,17 @@ class MoreInfo extends React.Component {
 				</Menu>
 			);
 		} else {
-			return <div></div>;
+			return <></>;
 		}
 	}
 
-	static download(link: string) {
+	static download(link: string, webpage: boolean = false) {
 		var download = document.createElement('a');
 		download.href = link;
-		let elements = link.split('/');
-		download.download = elements[elements.length - 1];
+		if (!webpage) {
+			let elements = link.split('/');
+			download.download = elements[elements.length - 1];
+		}
 		download.click();
 		download.remove();
 	}
