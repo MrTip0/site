@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.board {
+    text-align: center;
+    display: grid;
+    grid: initial;
+    grid-auto-flow: row;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: auto;
+    justify-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+.button {
+    border-width: 1px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    border-color: black;
+    background: none;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.4);
+}
+.button:active {
+    box-shadow: none;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+.X {
+    color: royalblue;
+}
+.O { 
+    color: crimson;
+}
+.restart {
+    grid-row-start: 4;
+    grid-column: 1 / span 3;
+    background: none;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.4);
+    height: 50px;
+    width: 100%;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+}
+.restart:active {
+    box-shadow: none;
+    color: #000;
+}
+.winner {
+    background-color: rgb(109, 255, 145);
+}

@@ -1,5 +1,27 @@
 [
   {
+    "imgUrl": "/tris.png",
+    "title": "Tris",
+    "github": "none",
+    "download": [
+      {
+        "platform": "web",
+        "link": "/tris/"
+      }
+    ]
+  },
+  {
+    "imgUrl": "/html-game.png",
+    "title": "Flappy Bird",
+    "github": "none",
+    "download": [
+      {
+        "platform": "web",
+        "link": "/html-game/"
+      }
+    ]
+  },
+  {
     "imgUrl": "/calculator.png",
     "title": "Calculator in JS",
     "github": "none",
