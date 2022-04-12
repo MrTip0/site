@@ -1,5 +1,16 @@
 [
   {
+    "imgUrl": "/clock.png",
+    "title": "JS Clock",
+    "github": "none",
+    "download": [
+      {
+        "platform": "web",
+        "link": "/clock/"
+      }
+    ]
+  },
+  {
     "imgUrl": "/tris.png",
     "title": "Tris",
     "github": "none",
