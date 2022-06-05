@@ -4,6 +4,7 @@
     max-width: 80vw;
     max-height: 80vh;
     border-radius: 1rem;
+    animation: movomement 3s ease 0s 1 normal forwards;
 }
 
 body {
@@ -32,4 +33,12 @@ body {
 
 #btnDog:hover, #btnDog:focus {
     border: 2px solid blue;
+}
+
+@keyframes movomement {
+    0% {}
+    30% {
+        transform: scale(3) rotate(20deg) translate(10px, -10px);
+    } 
+    100% {}
 }
